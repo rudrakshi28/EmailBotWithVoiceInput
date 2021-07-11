@@ -6,7 +6,7 @@ This project aims to save the time that is needed to type and send the mail, sim
 2. pip install pyttsx3
 3. pip install PyAudio
 
-In case you get an error during installation
+In case you get an error during installation of PyAudio
 
 5. pip install pipwin
 6. pipwin install pyaudio
