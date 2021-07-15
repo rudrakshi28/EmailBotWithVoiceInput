@@ -25,16 +25,16 @@ def get_information():
 def send_email(receiver, subject, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('journeyrendezvous@gmail.com','Journey@123')
+    server.login('sender_email','sender_password')
     email = EmailMessage()
-    email['From']='journeyrendezvous@gmail.com'
+    email['From']='sender_email'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(content)
     server.send_message(email)
 
 email_list =  {
-    'programmer': 'rudrakshi2000@gmail.com'
+    'programmer': 'receiver_email'
 }
 
 
