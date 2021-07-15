@@ -18,3 +18,6 @@ Make sure to turn on "Less Secure App Access" in your Google Account
 1. Go to your Google Account -- Manage my Account
 2. Go to Security
 3. Turn on "Less Secure App Access"
+
+
+Created in collaboration with my peer [@rudrathorat](https://github.com/rudrathorat)
